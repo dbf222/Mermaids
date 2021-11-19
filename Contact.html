@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+
+    <title>Mermaids and Tadpoles</title>
+
+    <link rel="stylesheet" href="Style.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.typekit.net/ozd4ptm.css">
+
+    <!--Favcon-->
+    <link rel="icon" type="image/png" href="Img/Tadpole.png">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  </head>
+
+  <body id="home">
+
+
+    <header>
+      <img id="HorzLogo" src="Img/LogoVert.png" alt="Horz Logo">
+      <button class="hamburger">&#9776;</button>
+      <button class="cross">&#735;</button>
+
+        	<!-- MOBILE MENU ********************************************************************* -->
+          <nav class="menu">
+            <ul>
+              <li><a href="Home.html">WELCOME</a></li>
+              <li><a href="About.html">WHAT WE OFFER</a></li>
+              <li><a href="Contact.html">CONTACT US</a></li>
+            </ul>
+          </nav>
+
+          <!-- DESKTOP MENU ********************************************************************* -->
+
+          <nav class="desktop-menu">
+            <ul>
+              <li><a href="Home.html">WELCOME</a></li>
+              <li><a href="About.html">WHAT WE OFFER</a></li>
+              <li><a href="Contact.html">CONTACT US</a></li>
+            </ul>
+          </nav>
+    </header>
+
+    <main id="Contact">
+      <div class="Calendar">
+        <section id="scheduler">
+          <h2>Book a Lesson</h2>
+          <figure>
+            <img src="Img/schedule.png" alt="schedual">
+            <figcaption>Schedule with <a href="https://calendly.com/mermaids-tadpoles?fbclid=IwAR0P1qApk0PWUuc9z6Yo_gNWWy_8MB9eEy0A3v7M9kW3dwCfxERlVRN13BQ">Calendly</a></figcaption>
+          </figure>
+        </section>
+      </div>
+
+      <div class="CBreak">
+        <img clsss="Ctb1" src="Img/hpbreak1.png" alt="Contact Page Break">
+        <img clsss="Ctb2" src="Img/hpbreak2.png" alt="Contact Page Break">
+        <img clsss="CTb3" src="Img/hpbreak3.png" alt="Contact Break ">
+        <img clsss="CTb4" src="Img/hpbreak4.png" alt="Contact Break ">
+        <img clsss="CTb5" src="Img/hpbreak5.png" alt="Contact Break ">
+      </div>
+
+      <div class="ContactF">
+        <div class="Form">
+          <form class="contact" id="test_form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
+            <div class="row input-container">
+              <h2>Contact Me</h2>
+                <div class="name">
+                  <div class="First-Name input-section">
+                    <!-- <label type="Name" for="Firstname" class="label_imput_wrap"></label> -->
+                    <input type="text" name="Firstname" id="Firstname" placeholder="First Name" required/>
+                  </div>
+
+                  <div class="Last-Name  input-section">
+                    <!-- <label type="Name" for="Lastname" class="label_imput_wrap"></label> -->
+                    <input type="text" name="Lastname" id="Lastname" placeholder="Last Name" required/>
+                  </div>
+                </div>
+
+
+                <div class="Email input-section">
+                  <!-- <label for="Email" class="label_imput_wrap">Email Address:</label> -->
+                  <input type="email" name="Email" id="Email" placeholder="Email Address" required/>
+                </div>
+
+                <div class="Subject input-section">
+                  <!-- <label for="Subject" class="label_imput_wrap">Subject:</label> -->
+                  <input type="text" name="Subject" id="Subject" placeholder="Subject" required />
+                </div>
+
+                <div class="Message input-section">
+                  <!-- <label for="Message" class="label_imput_wrap"> Message:</label> -->
+                  <textarea name="Message" id="Message" placeholder="Message"></textarea>
+                </div>
+
+                <div class="submit">
+                  <input type="submit" value="SUBMIT">
+                </div>
+              </div>
+            </form>
+          </div>
+      </div>
+
+    </main>
+
+    <footer>
+     <section id="FooterCenter">
+       <p class="quote">"Effective instruction in a fun and safe enviorement, creating the best experience for all!"</p>
+
+
+       <div class="row2">
+         <section id="centerleft">
+           <p>(XXX)XXX-XXXX</p>
+         </section>
+
+         <section id="centeright">
+           <p>mermaid.tadpole@gmail.com</p>
+         </section>
+       </div>
+     </section>
+
+     <section id="footr">
+       <a href="https://www.facebook.com/mermaidsntadpoles" target="_blank"><img src='Img/Fb.png' alt="Facebook" title= "Facekook"></a>
+     </section>
+
+   </footer>
+
+
+
+    <script src="js/Hamburger.js"></script>
+  </body>
+</html>
